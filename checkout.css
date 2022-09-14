@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  /* border: 2px solid green; */
+  height: 50rem;
+  width: 70rem;
+  margin: 1rem auto;
+}
+header {
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  font-family: "Kalam";
+  margin-top: 1rem;
+}
+
+.row {
+  font-family: "Ruluko";
+  padding: 2rem;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+h3 {
+  font-size: 30px;
+  margin: 5px;
+  color: rgb(40, 40, 40);
+}
+
+.forms {
+  margin: 5px;
+  color: rgb(114, 114, 114);
+}
+
+.forms div {
+  margin: 0.5rem;
+}
+
+input,
+select {
+  /* border-radius: 5px; */
+  /* border: 1px solid red; */
+  height: 35px;
+  width: 23rem;
+  padding-left: 0.5rem;
+  outline: none;
+  border: none;
+}
+
+.inputcheck {
+  height: 15px;
+  width: 15px;
+}
+
+.counpost {
+  display: flex;
+  /* width: 25rem; */
+}
+
+.counpost select,
+.counpost input {
+  width: 11rem;
+  /* border: 1px solid red; */
+}
+
+.forminput {
+  border: 1px solid grey;
+  display: flex;
+  box-shadow: 1px 1px 1px rgb(150, 150, 150);
+  justify-content: left;
+  align-items: center;
+  /* padding-left: 4px; */
+  padding: 0 6px;
+  border-radius: 10px;
+}
+
+/* ----------------------------------------------- */
+.shopping {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 2rem;
+}
+
+.shopping .butt {
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px rgb(150, 150, 150);
+  text-align: center;
+  padding-bottom: 3px;
+  width: 5rem;
+}
+
+.shopping button {
+  background-color: rgb(182, 182, 182);
+  border: none;
+  border-radius: 5px;
+  font-weight: 800;
+  width: 20px;
+  box-shadow: 1px 1px 2px rgb(150, 150, 150);
+  cursor: pointer;
+}
+
+.quantity {
+  margin-left: 10px;
+}
+
+.shpng,
+.total {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  border-top: 1px solid gray;
+}
+
+.col-5 {
+  background-color: rgb(234, 224, 224);
+  border-radius: 10px;
+  height: 25rem;
+  box-shadow: 2px 2px 3px rgb(160, 156, 156);
+}
+
+del {
+  color: gray;
+}
+
+.shopping .red {
+  color: red;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 25rem;
+  /* border: 2px solid green; */
+}
+
+footer button {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(220, 171, 66);
+  font-size: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 1px 1px 2px rgb(166, 129, 50);
+}
+
+footer button:hover {
+  background-color: rgb(177, 140, 61);
+}
+
+.shopping button:hover {
+  background-color: rgb(162, 162, 162);
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 50%;
+    height: 70%;
+    margin: 3rem;
+  }
+  .row {
+    display: inline-block;
+    padding: 0;
+  }
+
+  footer {
+    margin: 2rem;
+  }
+}

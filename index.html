@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./checkout.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kalam:300,regular,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Ruluko:regular" rel="stylesheet" />
+    <title>Form-Checkout</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- .......1.bölüm.......... -->
+      <header>CHECKOUT</header>
+      <div class="row">
+        <!-- ........2.bölüm......... -->
+        <div class="col-7">
+          <!-- ....email-phone.... -->
+
+          <div class="forms">
+            <h3>Contact Information</h3>
+            <div>
+              <label for="email">Email</label> <br />
+              <div class="forminput">
+              <i class="fa-solid fa-envelope"></i>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email..."
+                required
+              />
+            </div>
+          </div>
+            <div>
+              <label for="phone">Phone</label> <br />
+              <div class="forminput">
+              <i class="fa-solid fa-phone"></i>
+              <input
+                type="phone"
+                name="phone"
+                id="phone"
+                placeholder="Enter your phone..."
+                required
+              />
+            </div>
+            </div>
+          </div>
+
+          <!-- ....shipping-adress.... -->
+          <div class="forms">
+            <h3>Shipping Adress</h3>
+            <div>
+              <label for="name">Full name</label><br />
+              <div class="forminput">
+              <i class="fa-solid fa-user"></i>
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter your Full name..."
+                required
+              />
+              </div>
+            </div>
+            <div>
+              <label for="address">Address</label> <br />
+              <div class="forminput">
+                 <i class="fa-solid fa-house"></i>
+              <input
+                type="text"
+                id="address"
+                placeholder="Enter your address..."
+              />
+            </div>
+            </div>
+            <div>
+              <label for="city">City</label> <br />
+              <div class="forminput">
+                <i class="fa-solid fa-city"></i>
+              <input type="text" id="city" placeholder="Enter your city..." />
+            </div>
+              
+            </div>
+            <div class="counpost">
+              <div class="coninput">
+                <label for="country">Country</label> <br />
+                <div class="forminput"><i class="fa-solid fa-earth-europe"></i>
+                <select name="country" id="country">
+                  <option value="Turkey">Turkey</option>
+                  <option value="Germany">Germany</option>
+                  <option value="Spain">Spain</option>
+                  <option value="France">France</option>
+                  <option value="Italy">Italy</option>
+                  <option value="Swiss">Swiss</option>
+                </select></div>
+                
+              </div>
+              <div class="coninput">
+                <label for="post">Post Code</label> <br />
+                <div class="forminput">
+                  <i class="fa-solid fa-envelopes-bulk"></i>
+                <input
+                  type="text"
+                  id="post"
+                  placeholder="Enter your postal code..."
+                />
+              </div>
+                
+              </div>
+            </div>
+            <div>
+              <input type="checkbox" id="check" class="inputcheck" />
+              <label for="check">See this information next tume</label>
+            </div>
+          </div>
+        </div>
+
+        <!-- ...........3.bölüm...... -->
+        <div class="col-5">
+          <div class="shopping">
+            <div class="foto"><img src="./IMG/photo1.png" alt="foto" width="120rem"/></div>
+            <div class="quantity">
+              <div class="writing">
+                 <p>Vintage Backbag</p>
+                <p class="red">$54.99 <del>$94.99</del></p>
+              </div>
+              <div class="butt">
+                <button>+</button>
+                <span>1</span>
+                <button>-</button>
+              </div>
+            </div>
+          </div>
+          <div class="shopping">
+            <div class="foto"><img src="./IMG/photo2.png" alt="foto" width="120rem" /></div>
+            <div class="quantity">
+              <div class="writing">
+                 <p>Levi Shoes</p>
+                <p class="red">$74.99 <del>$124.99</del></p>
+              </div>
+              <div class="butt">
+                <button>+</button>
+                <span>1</span>
+                <button>-</button>
+              </div>
+            </div>
+          </div>
+          <div class="payment">
+            <div class="shpng">
+              <p>Shiping</p>
+              <p>$19</p>
+            </div>
+            <div class="total">
+              <p>Total</p>
+              <p>$148.98</p>
+            </div>
+
+          </div>
+            
+          </div>
+        </div>
+         <!-- ........4.bölüm........  -->
+      <footer>
+        <button>Continue</button>
+      </footer>
+      </div>
+    </div>
+  </body>
+</html>
